@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.metaq.final:metaq-client:3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
