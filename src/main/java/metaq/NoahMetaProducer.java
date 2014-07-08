@@ -13,9 +13,17 @@ import com.taobao.metaq.client.MetaProducer;
  */
 public class NoahMetaProducer {
     private MetaProducer metaProducer;
+    private String       producer_group_name;
 
-    public NoahMetaProducer() throws MQClientException {
-        metaProducer = new MetaProducer("noah_producer_group_nmae");
+    public void setProducer_group_name(String producer_group_name) {
+        this.producer_group_name = producer_group_name;
+    }
+
+    public void setMetaProducer(MetaProducer metaProducer) {
+        this.metaProducer = metaProducer;
+    }
+
+    public void start() throws MQClientException {
         metaProducer.start();
     }
 
@@ -23,7 +31,7 @@ public class NoahMetaProducer {
         return metaProducer.send(msg);
     }
 
-    public void close() {
+    public void shutdown() {
         if (null != metaProducer) {
             metaProducer.shutdown();
         }

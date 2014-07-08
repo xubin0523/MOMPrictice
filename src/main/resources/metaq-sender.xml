@@ -2,9 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="noahMetaProducer" class="metaq.NoahMetaProducer"/>
+    <bean id="noahMetaProducer" class="metaq.NoahMetaProducer" init-method="start">
+        <property name="producer_group_name" value="noah_producer_group_name"/>
+    </bean>
 
-    <bean id="testSender" class="metaq.MetaqSerializeSender">
+    <bean id="metaProducer" class="com.taobao.metaq.client.MetaProducer"/>
+
+    <bean id="testSender" class="metaq.MetaqMsgSender">
         <property name="noahMetaProducer" ref="noahMetaProducer"/>
         <property name="topic" value="noahTestTopic"/>
     </bean>

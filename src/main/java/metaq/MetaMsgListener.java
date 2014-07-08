@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by mark on 7/4/14.
  */
-public class NoahMetaMsgListener implements MessageListenerConcurrently{
+public class MetaMsgListener implements MessageListenerConcurrently{
     @Override
     public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext context) {
         System.out.println(Thread.currentThread().getName() + " Receive New Messages: " + msgs);
@@ -28,7 +28,6 @@ public class NoahMetaMsgListener implements MessageListenerConcurrently{
             }
         }
         else if (msg.getTopic().equals("TopicTest2")) {
-            // 执行TopicTest2的消费逻辑
         }
 
         return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
