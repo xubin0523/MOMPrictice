@@ -4,7 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="metaqMsgReceiver" class="metaq.MetaqMsgReceiver" init-method="init">
-        <property name=""
+        <property name="topicList">
+            <list>
+                <value>noahTestTopic</value>
+                <value>noahTestTopic2</value>
+            </list>
+        </property>
+        <property name="metaMsgListener">
+            <bean class="metaq.MetaMsgListener"/>
+        </property>
     </bean>
 
 </beans>

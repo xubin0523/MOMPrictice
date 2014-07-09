@@ -43,6 +43,7 @@ public class MetaqMsgSender implements MetaqMsgSenderInterface {
         try {
             Message msg = new Message(topic, tag, key, body);
             SendResult sendResult = noahMetaProducer.send(msg);
+            System.out.println(sendResult);
             if (SendStatus.SEND_OK.equals(sendResult.getSendStatus())) {
                 return true;
             } else {

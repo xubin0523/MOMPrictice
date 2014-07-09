@@ -6,11 +6,15 @@
         <property name="producer_group_name" value="noah_producer_group_name"/>
     </bean>
 
-    <bean id="metaProducer" class="com.taobao.metaq.client.MetaProducer"/>
 
     <bean id="testSender" class="metaq.MetaqMsgSender">
         <property name="noahMetaProducer" ref="noahMetaProducer"/>
         <property name="topic" value="noahTestTopic"/>
+    </bean>
+
+    <bean id="testSender2" class="metaq.MetaqMsgSender">
+        <property name="noahMetaProducer" ref="noahMetaProducer"/>
+        <property name="topic" value="noahTestTopic2"/>
     </bean>
 
 </beans>

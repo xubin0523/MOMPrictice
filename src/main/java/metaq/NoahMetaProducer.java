@@ -24,6 +24,7 @@ public class NoahMetaProducer {
     }
 
     public void start() throws MQClientException {
+        metaProducer = new MetaProducer(producer_group_name);
         metaProducer.start();
     }
 

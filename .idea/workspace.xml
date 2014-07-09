@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd207e03-dbe1-471d-8889-2c999d6f7104" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutorInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/metaq/NoahMetaConsumer.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSenderInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqSerializeSender.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/metaq/NoahMetaMsgListener.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/metaq-consumer.xml" afterPath="$PROJECT_DIR$/src/main/resources/metaq-receiver.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutorInterface.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/metaq/Laucher.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/Laucher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/metaq/NoahMetaProducer.java" afterPath="$PROJECT_DIR$/src/main/java/metaq/NoahMetaProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/metaq-receiver.xml" afterPath="$PROJECT_DIR$/src/main/resources/metaq-receiver.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/metaq-sender.xml" afterPath="$PROJECT_DIR$/src/main/resources/metaq-sender.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -78,20 +76,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MetaqMsgReceiver.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MetaqMsgReceiver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="230" selection-end="246" vertical-scroll-proportion="0.21513002" vertical-offset="89" max-vertical-offset="1134">
+            <state line="19" column="46" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1206">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1547#1548#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1787#1788#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,19 +100,12 @@
       <file leaf-file-name="MetaPushConsumer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15-sources.jar!/com/taobao/metaq/client/MetaPushConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="16" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.0" vertical-offset="1196" max-vertical-offset="6948">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15444">
+            <state line="354" column="40" selection-start="10359" selection-end="10382" vertical-scroll-proportion="0.0" vertical-offset="5346" max-vertical-offset="6948">
               <folding>
-                <marker date="1404820039568" expanded="true" signature="47843:47906" placeholder="..." />
-                <marker date="1404820039568" expanded="true" signature="47843:47891" placeholder="..." />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#11389#11390#0" expanded="false" />
+                <element signature="e#11432#11433#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,8 +114,22 @@
       <file leaf-file-name="MetaqMsgSender.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="569" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+            <state line="45" column="31" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1314">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16488">
+              <folding>
+                <marker date="1404885915776" expanded="true" signature="51093:51156" placeholder="..." />
+                <marker date="1404885915776" expanded="true" signature="51093:51141" placeholder="..." />
+                <marker date="1404885915776" expanded="true" signature="51093:51128" placeholder="..." />
+                <marker date="1404885915776" expanded="true" signature="51093:51110" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +137,16 @@
       <file leaf-file-name="metaq-receiver.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/metaq-receiver.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="308" selection-end="324" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="270">
+            <state line="14" column="19" selection-start="674" selection-end="674" vertical-scroll-proportion="-10.08" vertical-offset="0" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetaqMsgSenderInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSenderInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="23" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -139,8 +155,19 @@
       <file leaf-file-name="metaq-sender.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/metaq-sender.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="55" selection-start="601" selection-end="601" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="378">
+            <state line="16" column="55" selection-start="841" selection-end="841" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="450">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="41" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="216">
+              <folding>
+                <marker date="1404869229488" expanded="true" signature="97:386" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +175,7 @@
       <file leaf-file-name="Laucher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/metaq/Laucher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+            <state line="29" column="13" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="864">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,28 +183,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetaMsgListener.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MetaMsgListener.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="390" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetaqMsgExecutorInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutorInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetaqMsgExecutor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+            <state line="28" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="1.2777778" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -197,7 +206,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/metaq/NoahMetaConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/metaq/Laucher.java" />
         <option value="$PROJECT_DIR$/src/main/java/metaq/MetaSerializeSender.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/metaq-consumer.xml" />
@@ -208,11 +216,14 @@
         <option value="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutorInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/metaq/NoahMetaMsgListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/metaq/NoahMetaProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/metaq-sender.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/metaq-receiver.xml" />
         <option value="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/metaq-sender.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/metaq/NoahMetaProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/metaq/Laucher.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/metaq-receiver.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java" />
       </list>
     </option>
   </component>
@@ -375,14 +386,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../transformer/ruby-nirvana/pom.xml" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Laucher">
+    <configuration default="false" name="Laucher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="metaq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="metaq.Laucher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MOMPrictice" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -594,7 +629,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Laucher" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Laucher" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -607,19 +649,24 @@
       <created>1404459439305</created>
       <updated>1404459439305</updated>
       <workItem from="1404459440889" duration="11849000" />
-      <workItem from="1404809054500" duration="10354000" />
+      <workItem from="1404809054500" duration="15423000" />
     </task>
+    <task id="LOCAL-00001" summary="first&#10;">
+      <created>1404820257008</created>
+      <updated>1404820257008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22203000" />
+    <option name="totallyTimeSpent" value="27272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1442" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44534412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -632,13 +679,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3311874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -657,9 +705,15 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="first&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="first&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -739,36 +793,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/Laucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14400">
           <folding>
-            <marker date="1404820039568" expanded="true" signature="47843:47906" placeholder="..." />
-            <marker date="1404820039568" expanded="true" signature="47843:47891" placeholder="..." />
+            <marker date="1404885915776" expanded="true" signature="51093:51156" placeholder="..." />
+            <marker date="1404885915776" expanded="true" signature="51093:51141" placeholder="..." />
+            <marker date="1404885915776" expanded="true" signature="51093:51128" placeholder="..." />
+            <marker date="1404885915776" expanded="true" signature="51093:51110" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutorInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15-sources.jar!/com/taobao/metaq/client/MetaPushConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="16" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.0" vertical-offset="1196" max-vertical-offset="6948">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,71 +812,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/taobao/metaq/final/metaq-client/3.0.0-SNAPSHOT/metaq-client-3.0.0-20140319.130008-15-sources.jar!/com/taobao/metaq/client/MetaPushConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="390" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="648">
-          <folding />
+        <state line="354" column="40" selection-start="10359" selection-end="10382" vertical-scroll-proportion="0.0" vertical-offset="5346" max-vertical-offset="6948">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11389#11390#0" expanded="false" />
+            <element signature="e#11432#11433#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/metaq-sender.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="601" selection-end="601" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="378">
-          <folding />
+        <state line="5" column="41" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="216">
+          <folding>
+            <marker date="1404869229488" expanded="true" signature="97:386" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metaq/NoahMetaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="859" selection-end="859" vertical-scroll-proportion="0.47706422" vertical-offset="84" max-vertical-offset="738">
+        <state line="29" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.627907" vertical-offset="207" max-vertical-offset="756">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSenderInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/Laucher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="350" selection-end="350" vertical-scroll-proportion="0.51274365" vertical-offset="0" max-vertical-offset="667">
-          <folding />
+        <state line="29" column="13" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="864">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/metaq-sender.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="569" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1296">
+        <state line="16" column="55" selection-start="841" selection-end="841" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/metaq-receiver.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="308" selection-end="324" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="270">
+        <state line="14" column="19" selection-start="674" selection-end="674" vertical-scroll-proportion="-10.08" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSenderInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="31" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1314">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaqMsgReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="230" selection-end="246" vertical-scroll-proportion="0.21513002" vertical-offset="89" max-vertical-offset="1134">
+        <state line="19" column="46" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1206">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metaq/MetaMsgListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="1.2777778" vertical-offset="0" max-vertical-offset="594">
+          <folding />
         </state>
       </provider>
     </entry>

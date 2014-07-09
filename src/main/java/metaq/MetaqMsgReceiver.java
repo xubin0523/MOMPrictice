@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by mark on 7/8/14.
  */
-public class MetaqMsgReceiver extends MetaPushConsumer {
+public class MetaqMsgReceiver {
     private MetaPushConsumer                metaPushConsumer;
     public  String                          groupName = "noah_consumer_group_name";
     private List<String>                    topicList;
@@ -53,5 +53,9 @@ public class MetaqMsgReceiver extends MetaPushConsumer {
 
     public void setMetaMsgListener(MetaMsgListener metaMsgListener) {
         this.metaMsgListener = metaMsgListener;
+    }
+
+    public void setConsumeMessageBatchMaxSize(int consumeMessageBatchMaxSize) {
+        this.consumeMessageBatchMaxSize = consumeMessageBatchMaxSize;
     }
 }
