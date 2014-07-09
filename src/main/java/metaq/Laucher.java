@@ -31,7 +31,7 @@ public class Laucher {
 
             {
                 MetaqMsgSender producer = (MetaqMsgSender) context.getBean("testSender2");
-                producer.send("Hello MetaQ", null, "OrderID001");
+                producer.send("Hello MetaQ", null, "OrderID002");
             }
         }
         catch (Exception e) {
